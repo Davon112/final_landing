@@ -1,0 +1,139 @@
+.container{
+    font-family: "Source Serif Pro-SemiBold ";
+    
+    flex-direction: column;
+    gap: 60px;
+    height: 678px;
+   
+    position: relative;
+    margin-top: 100px;
+    
+    
+    border: #5a7d65 inset 15px;
+    box-shadow:  #000000 10px 10px 10px;
+    margin-bottom: 80px;
+    text-shadow: lightgrey 5px 5px 5px;
+    background-color: white;
+    
+}
+
+.container .header {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+.container .text-wrapper {
+    background-color: white;
+    color: #000000;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -0.4px;
+    list-style: normal;
+    margin-top: 30px;
+    position: relative;
+    width: fit-content;
+
+}
+
+.container .values {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.container .div {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 40px;
+    position: relative;
+    width: 984px;
+}
+
+.container .div-2 {
+    background-color: white;
+    align-items: flex-start;
+    align-items: stretch;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    position: relative;
+}
+
+.container .image {
+    background-color: white;
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    width: 40px;
+}
+
+.container .text-wrapper-2 {
+    background-color: white;
+    align-self: stretch;
+    color: #000000;
+    font-family: 'Source Serif Pro-SemiBold', Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: relative;
+}
+
+.container .p {
+    background-color: white;
+    align-self: stretch;
+    color: var(--darkest-gray);
+    font-family: 'Lato-Regular', Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    line-height: normal;
+    position: relative;
+}
+
+.container .img {
+    background-color: white;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.container .text-wrapper-3 {
+    background-color: white;
+    align-self: stretch;
+    color: #000000;
+    font-family: 'Source Serif Pro-SemiBold', Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.24px;
+    line-height: normal;
+    position: relative;
+}
+
+.empowers{
+    
+    font-size: 55px;
+    font-weight: bolder ;
+    color: #5a7d65;
+    text-shadow: black 1px 1px 1px;
+    
+    padding: 5px;
+    
+}
